@@ -13,7 +13,7 @@ from datetime import datetime, date
 
 
 def display_current_month():
-    """Display the current month's calendar."""
+    """Display the current month's calendarr."""
     now = datetime.now()
     print(f"\n--- {calendar.month_name[now.month]} {now.year} ---")
     print(calendar.month(now.year, now.month))
